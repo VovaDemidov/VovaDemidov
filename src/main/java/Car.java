@@ -14,13 +14,18 @@ public class Car {
     }
 
     public static Car getWhiteCar() {
-        return new Car("white");
+        return new Car ("white");
 
     }
 
     public static Car getSpotCar() {
-        return new Car(2);
+        return new Car (2);
 
+    }
+
+    public static void Drive() {
+
+        System.out.println ("vrvrvrvrv");
     }
 
 }

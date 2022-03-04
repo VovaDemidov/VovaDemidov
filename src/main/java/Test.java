@@ -1,3 +1,5 @@
+import java.util.HashSet;
+import java.util.Set;
 
 interface Converter {
 
@@ -47,5 +49,5 @@ class Test {
         Raccoon raccoon = converter.convert(dog);
 
         System.out.println("Raccoon has parameters: name - " + raccoon.name + ", age - " + raccoon.age + ", weight - " + raccoon.weight);
-    }
+            }
 }
