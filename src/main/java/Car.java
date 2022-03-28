@@ -3,12 +3,13 @@ public class Car {
 
     String color;
     int doors;
+    CarInt2 carInt2;
 
     private Car(String color) {
         this.color = color;
     }
 
-    private Car(int doors) {
+    public Car(int doors) {
         this.doors = doors;
 
     }
@@ -25,7 +26,14 @@ public class Car {
 
     public static void Drive() {
 
+
         System.out.println ("vrvrvrvrv");
+    }
+
+
+    public void brbr() {
+
+        this.carInt2.doSomthing ();
     }
 
 }
